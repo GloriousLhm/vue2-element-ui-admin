@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+code,
+blockquote,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+th,
+td {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none
+}
+
+a,
+a:active {
+  color: #409EFF;
+}
+
+li {
+  list-style: none;
+}
+
+.content-box {
+  position: absolute;
+  left: 221px;
+  right: 0;
+  top: 70px;
+  bottom: 0;
+  padding-bottom: 30px;
+  -webkit-transition: left .3s ease-in-out;
+  transition: left .3s ease-in-out;
+  background: #ffffff;
+}
+
+.content {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.content-collapse {
+  left: 65px;
+}
+
+.container {
+  background: #fff;
+}
+
+/* button */
+.btn-wrap {
+  margin-bottom: 14px;
+}
+
+.base-btn {
+  display: inline-block;
+  padding: 8px 8px !important;
+}
+
+/* pagination */
+.el-pagination {
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* input */
+.base-search {
+  display: inline-block !important;
+  width: 182px !important;
+  margin: 0 4px;
+}
+
+.el-button--small,
+.el-button--small.is-round {
+  /* padding: 8px 8px !important; */
+}
+
+.right-solt {
+  float: right;
+}
+
+.right-solt .name {
+  margin-right: 4px;
+}
+
+.right-solt .el-input__suffix {
+  right: -42px;
+}
+
+.upload {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.el-row {
+  margin: 8px 0;
+}
+
+.el-input .icon-search {
+  font-size: 20px;
+  margin-top: 6px;
+}
